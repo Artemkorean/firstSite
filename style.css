@@ -11,3 +11,49 @@ body {
     font-size: 0.5em;
     line-height: 1,5em;
 }
+
+.text2 .marked {
+    background-color: pink;
+}
+
+.marked {
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    letter-spacing: 0,5em;
+}
+
+ol {
+    list-style-type: none;
+    list-style-type: inside;
+    counter-reset: number
+    ;
+}
+
+ol li::before {
+    content: counter(number) ')';
+    counter-increment: number;
+    /* background-color: green; */
+}
+
+#red {
+    color: red;
+}
+
+#orange {
+    color: orange;
+}
+
+#green {
+    color: green;
+}
+
+#yellow {
+
+    color: yellow;
+}
+
+#purple {
+    color: purple;
+}
