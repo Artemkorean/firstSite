@@ -7,6 +7,12 @@
 body {
     font-size: 40px;
 }
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
 .heading {
     font-style: italic;
     color: red;
@@ -36,10 +42,14 @@ ol {
     list-style-type: none;
     list-style-type: inside;
     /* counter-reset: number */
-    padding: 1em 10em 1em 5em;
+    padding: 1em 2em 1em 3em;
     border: 1px solid red;
     width: 350px;
     margin: 2em auto;
+    background-image: url("images/background3.jfif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
 }
 
 ol li::before {
@@ -67,4 +77,28 @@ ol li::before {
 
 #purple {
     color: purple;
+}
+
+.cat-image{
+    width: 200px;
+    float: right;
+
+}
+
+.cat-image2{
+    width: 200px;
+    display: block;
+    margin:auto;
+}
+
+a {
+    color:blueviolet;
+}
+
+a:visited {
+    color:blue;
+}
+
+a:hover {
+    color:aquamarine;
 }
